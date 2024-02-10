@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(1, 4, 199), #890d99);
+
+}
+
+.tabla-general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+table{
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background: rgba(243, 140, 210, 0.4);
+}
+
+th{
+    padding: 20px, 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+tbody tr{
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background-color: rgba(243, 140, 210, 0.4);
+}
