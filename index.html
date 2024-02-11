@@ -7,13 +7,15 @@
     <title>Lucky Bingo</title>
     <script src="./script.js"></script>
   </head>
+
   <body>
     <div>
-      <header>
+      <header class="titulo-inicio">
         <h1>Lucky Bingo</h1>
       </header>
-      <h2>Tabla de ganadores</h2>
+      <h2 class="titulo-ganadores">Tabla de ganadores:</h2>
     </div>
+
     <section class="tabla-general">
       <div class="container">
         <table>
@@ -40,5 +42,19 @@
         </table>
       </div>
     </section>
+
+    <div>
+      <h3>Introduzca los nombres de los jugadores:</h3>
+      <h3>Seleccione el tamaño del carton:</h3>
+      <form>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="range" min="3" max="5" />
+      </form>
+    </div>
+
+    <button>Jugar</button>
   </body>
 </html>
