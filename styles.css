@@ -26,8 +26,9 @@ body{
     justify-content: center;
 }
 
-h3{
-    color: #fff;
+label{
+    color:#fff;
+    font-size: 10px;
 }
 
 .tabla-general{
@@ -70,4 +71,16 @@ tbody tr{
 
 tbody tr:hover{
     background-color: rgba(243, 140, 210, 0.4);
+}
+
+.boton-jugar{
+    display: block;
+    width: 100px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 20px 13px;
+    padding: 15px 30px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
 }
