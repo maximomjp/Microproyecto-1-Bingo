@@ -73,6 +73,37 @@ tbody tr:hover{
     background-color: rgba(243, 140, 210, 0.4);
 }
 
+.jugadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-enviar{
+    display: block;
+    width: 100px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: orange;
+    margin: 20px 13px;
+    padding: 1px 15px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+}
+
+#posicion-boton-enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posicion-boton-jugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .boton-jugar{
     display: block;
     width: 100px;

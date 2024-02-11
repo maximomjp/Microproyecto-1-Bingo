@@ -43,21 +43,26 @@
       </div>
     </section>
 
-    <div>
+    <div class="jugadores">
       <form>
         <label>Jugador 1:</label>
-        <input type="text" />
+        <input type="text" id="jug1" placeholder="Ingrese nombre" />
         <label>Jugador 2:</label>
-        <input type="text" />
+        <input type="text" id="jug2" placeholder="Ingrese nombre" />
         <label>Jugador 3:</label>
-        <input type="text" />
+        <input type="text" id="jug3" placeholder="Ingrese nombre" />
         <label>Jugador 4:</label>
-        <input type="text" />
+        <input type="text" id="jug4" placeholder="Ingrese nombre" />
         <label>NxN:</label>
         <input type="range" min="1" max="3" />
+        <section id="posicion-boton-enviar">
+          <input id="boton-enviar" type="submit" value="Enviar" />
+        </section>
       </form>
     </div>
 
-    <a class="boton-jugar" href="bingo.html">Jugar</a>
+    <div class="posicion-boton-jugar">
+      <a class="boton-jugar" href="bingo.html">Jugar</a>
+    </div>
   </body>
 </html>
