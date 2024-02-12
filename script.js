@@ -28,6 +28,7 @@ for (let i = 0; i < 25; i++) {
     matriz.push(generarAleatorio(1,51));
  }
 
+
  //Iterar array
 for(let i = 0; i < matriz.length; i++){
     console.log(matriz[i])
