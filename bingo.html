@@ -8,31 +8,31 @@
     <script src="./script.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Bingo</h1>
-    </header>
-    <div id="juego">
-      <div class="carton">
-        <div class="etiqueta">Jugador 1</div>
+    <div class="contenedor">
+      <h1>LuckyBingo</h1>
+      <div class="fila">
+        <div class="carton-columna">
+          <table id="bingo-table">
+            <thead>
+              <tr>
+                <th>B</th>
+                <th>I</th>
+                <th>N</th>
+                <th>G</th>
+                <th>O</th>
+              </tr>
+            </thead>
+            <tbody id="bingo-body"></tbody>
+          </table>
+        </div>
+        <div class="maquina-columna"></div>
+        <div>
+          <button id="reiniciar">Reiniciar</button>
+        </div>
+        <div>
+          <button id="sacar-numero">Sacar numero</button>
+        </div>
       </div>
-
-      <div class="carton">
-        <div class="etiqueta">Jugador 2</div>
-      </div>
-
-      <div class="carton">
-        <div class="etiqueta">Jugador 3</div>
-      </div>
-
-      <div class="carton">
-        <div class="etiqueta">Jugador 4</div>
-      </div>
-
-      <div>
-        <div id="numero"></div>
-        <button onClick="sacarNumero();">Sacar Numero</button>
-      </div>
-      <button id="reiniciar-juego">Reiniciar juego</button>
     </div>
   </body>
 </html>
